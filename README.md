@@ -17,24 +17,34 @@ Develop level 4 autonomy in a dedicated area based on deep-learning and map-base
 
 **Golf cart rehab**
 
-Golf Cart Tare down
-Fix Frame and Mechanics
-Includes rust removal and protection
-Order and Replace Parts as needed
-Treat parts for rust protection (paint etc)
-Order hardware needed for frame reassemble
-Reassemble Frame and Basic Mechanics
-Determine components and parts needed for manual operation (for later computer control)
-Reassemble electrical wiring for basic operation
+- Golf Cart Tare down
+
+- Fix Frame and Mechanics
+
+- Includes rust removal and protection
+
+- Order and Replace Parts as needed
+
+- Treat parts for rust protection (paint etc)
+
+- Order hardware needed for frame reassemble
+
+- Reassemble Frame and Basic Mechanics
+
+- Determine components and parts needed for manual operation (for later computer control)
+
+- Reassemble electrical wiring for basic operation
 
 **Hardware development**
 
-a)	Drive by Wire
+a)	Drive by Wire:
+
 Following concept was decided based on the condition of the golf cart and the amount of steering force required to steer the vehicle. Linear actuator with a potentiometer is used to provide position feedback to the computer to make the decision.
 
 ![image](https://user-images.githubusercontent.com/91168380/139088064-c8d1cf72-e4c4-46b3-b703-34d55c4ae55d.png)
 
-b)	Brakes
+b)	Brakes:
+
 Brake by wire will follow the similar approach as the drive by wire using a linear actuator.
 
 ![image](https://user-images.githubusercontent.com/91168380/139088154-2997af85-dea4-40b3-8803-989cea08aceb.png)
