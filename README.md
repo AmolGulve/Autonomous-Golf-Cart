@@ -2,7 +2,7 @@
 ![Golf_1](https://user-images.githubusercontent.com/91168380/134340803-c8f8d126-19d8-417f-809b-033782340e08.jpg)
 Welcome!!
 
-This project is focused on building an autonomous golf cart with university students as part of my mentorship involvement with Robotics Group. We were donated an old 2009 EZ-Go Golf cart and have recreated the chassis and frame components. We still have a long way to go and during this development process I will be mentoring the students and learning new tools and software’s to develop the autonomy in the golf cart using map-based decision-making capability.
+I am leading this project to focus on building an autonomous golf cart as part of my mentorship involvement with Robotics Group. We were donated an old 2009 EZ-Go Golf cart and have refurbished the chassis and frame components. We still have a long way to go and during this development process I will be mentoring the students and learning new tools and software’s to develop the autonomy in the golf cart using map-based decision-making capability.
 
 **Goals:**
 
