@@ -71,9 +71,12 @@ f.	Test programming outside on available platforms
 
 Finish adding electrical controls and prepare for computer control of them.
 Create finish hard mounting, wiring of sensors, electronics, and computer parts to golf cart.
-ROS and Arduino will be used as sub-controllers to connect with Nvidia Jetson as shown below.
 
 ![image](https://user-images.githubusercontent.com/91168380/139088540-68cc2681-6ffe-4d46-818c-a80f294fc2e0.png)
+
+ROS and Arduino will be used as sub-controllers to connect with Nvidia Jetson as shown below.
+
+![Ros_arduino](https://user-images.githubusercontent.com/91168380/139174847-611eed5d-9777-4c33-97f9-f3e52ef59292.png)
 
 **Map based decision making**
 
