@@ -85,6 +85,52 @@ Studying various software’s available to better integrate with the hardware ba
 ![image](https://user-images.githubusercontent.com/91168380/139088646-ae8011ad-5b48-4496-9508-0858804beb11.png)
 
 
-About ROS
+**About ROS**
+
+ROS Information
+Below you will find information about all the ROS packages, nodes, topics planned to be used in this project.
+
+Packages & Nodes
+Here is a list of packages. Underneath each package are nodes in that package.
+
+**autopilot**
+The autopilot node is the brain of the self-driving car. It uses end-to-end deep learning to predict the steering, acceleration and braking commands of the vehicle. while subscribes to the camera feed. (Node currently functioning) The Arduino subsribes to the steering_cmds and controls the steering accordingly.
+
+Nodes:
+autopilot
+visualization
+Publishes
+/vehicle/dbw/steering_cmds/
+/vehicle/dbw/cruise_cmds/
+Subscribes
+/camera_node/image_raw
+/camera_node/image_sim
+
+**object_detection**
+YOLO (You Only Look Once) realtime object detection system.
+
+Nodes:
+object_detection_node
+Publishes
+/detection/object/detection_visualization/
+/detection/object/detection_result
+Subscribes:
+/camera_node/image_raw
+
+**gps**
+Used for localization. Currently using the Adafruit GPS module, serial communication.
+
+Nodes:
+gps_receiver
+nmea_topic_driver
+nmea_topic_serial_reader
+The GPS package manages and publishes the data received from a GPS module connected via serial. The package
+
+Publishes:
+/sensor/gps/fix
+/sensor/gps/vel
+data_logger
+
+
 
 
