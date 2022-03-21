@@ -14,6 +14,7 @@ Develop level 4 autonomy in a dedicated area based on deep-learning and map-base
 3.	Computer and software development
 4.	System integration
 5.	Map-based decision making
+6.	Yolo Object detection with ROS
 
 **Golf cart rehab**
 
@@ -108,6 +109,9 @@ Subscribes
 
 **object_detection**
 YOLO (You Only Look Once) realtime object detection system.
+The golf cart uses Python and the machine learning library Python. The first step is to convert the latest version of YOLO (v3) to Keras. 
+I created an object detection node in ROS. This node listens to the camera input and performs object detection. Also, the node publishes the detection results with a specific message type, and it can also publish detection visualization. The result looks something like this: 
+![image](https://user-images.githubusercontent.com/91168380/159380264-145689eb-5aa0-40de-a275-01102133f5b9.png)
 
 Nodes:
 object_detection_node
